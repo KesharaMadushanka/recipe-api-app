@@ -1,0 +1,39 @@
+# Ignore common Python and Django files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+#python
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env
+.venv
+venv/
+
+# Ignore media and static files (adjust as needed)
+media/
+static/
+
+# Ignore development and environment-specific files
+*.env
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore Docker-related files (if using Docker Compose)
+.dockerignore
+docker-compose.yml
+Dockerfile
+
+# Ignore version control files
+.git
+.gitignore
+
+#docker
+.docker
